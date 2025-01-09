@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="productos.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="fotos/logo.png" alt="Logo de la marca"></a>
+        </div>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="ETBs.html"><img class="box" src="fotos/box.png" alt="Etb">ETB's</a></li>
+                <li><a href="BoosterBoxes.html"><img class="booster" src="fotos/booster.png" alt="Booster box"> BOOSTER BOX</a></li>
+                <li><a href="accesorios.html"><img class="acc-png" src="fotos/accesorios.png" alt="accesorios">ACCESORIOS</a></li>
+            </ul>
+        </nav>
+
+        <a href="carrito.html"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="carrito-icono">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+            </svg>
+        </a>
+          
+        <a href="contacto.html" class="button">CONTACTO</a>
+    </header>
+    <main>
+        <article class="product-page">
+            <!-- Columna izquierda: Imagen del producto -->
+            <section class="product-column product-image">
+                <figure>
+                    <img src="fotos/primal-box.png" alt="Booster Box Primal Clash">
+                </figure>
+            </section>
+
+            <!-- Columna derecha: Información del producto -->
+            <section class="product-column product-info">
+                <!-- Encabezado del producto -->
+                <header class="producto">
+                    <span class="badge">NOVEDAD</span>
+                    <h1 class="titulo">Booster Box Primal Clash - Inglés</h1>
+                </header>
+
+                <!-- Precio del producto -->
+                <p class="price">
+                    <span class="current-price">750€</span>
+                </p>
+
+                <!-- Descripción del producto -->
+                <section class="description">
+                    <ul>
+                        <li>
+                            36 Sobres de cartas Primal Clash
+                        </li>
+                        <li>
+                            Más de 160 cartas
+                        </li>
+                        <li>
+                            Más de 12 Ilustraciones raras de Pokemon 
+                        </li>
+                        <li>
+                            16 tarjetas ultra raras grabadas de arte completo de Pokemon-EX y Supporter
+                        </li>
+                        <li>
+                            Más de 15 cartas de Entrenador
+                        </li>
+                        <li>
+                            Cuatro cartas hiper raras grabadas en oro
+                        </li>
+                  </ul>
+                </section>
+
+                <!-- Selector de cantidad -->
+                <section class="quantity-selector">
+                    <label for="quantity">Cantidad:</label>
+                    <div class="quantity-control">
+                        <button aria-label="Reducir cantidad">-</button>
+                        <input id="quantity" type="number" value="1" min="1">
+                        <button aria-label="Aumentar cantidad">+</button>
+                    </div>
+                </section>
+    
+                <!-- Botones de acción -->
+                <footer class="action-buttons">
+                    <button class="add-to-cart">Añadir a la cesta</button>
+                    <button class="paypal-button">Pagar con PayPal</button>
+                    <a href="#" class="more-options">Más opciones de pago</a>
+                </footer>
+            </section>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <ul class="social-icon">
+            <li class="icon-element">
+                <a href="" class="icon">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+            </li>
+
+            <li class="icon-element">
+                <a href="https://www.instagram.com/" class="icon">
+                    <ion-icon name="logo-instagram"></ion-icon></a>
+            </li>
+
+            <li class="icon-element">
+                <a href="https://x.com/" class="icon">
+                    <ion-icon name="logo-twitter"></ion-icon></a>
+            </li>
+
+            <li class="icon-element">
+                <a href="https://www.facebook.com/" class="icon">
+                    <ion-icon name="logo-facebook"></ion-icon></a>
+            </li>
+        </ul>
+
+        <ul class="menu">
+            <li class="menu-element">
+                <a href="" class="menu-icon">Inicio</a>
+            </li>
+
+            <li class="menu-element">
+                <a href="" class="menu-icon">Equipo</a>
+            </li>
+
+            <li class="menu-element">
+                <a href="" class="menu-icon">Contacto</a>
+            </li>
+
+            <li class="menu-element">
+                <a href="" class="menu-icon">Sobre Nosotros</a>
+            </li>
+        </ul>
+        <p class="text">@2024 | Proyecto Lenguaje de marcas DAW</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    </body>
+    </html>

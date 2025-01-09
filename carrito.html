@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="carrito.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="fotos/logo.png" alt="Logo de la marca"></a>
+        </div>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="ETBs.html"><img class="box" src="fotos/box.png" alt="Etb">ETB's</a></li>
+                <li><a href="BoosterBoxes.html"><img class="booster" src="fotos/booster.png" alt="Booster box"> BOOSTER BOX</a></li>
+                <li><a href="accesorios.html"><img class="acc-png" src="fotos/accesorios.png" alt="accesorios">ACCESORIOS</a></li>
+            </ul>
+        </nav>
+
+        <a href="carrito.html"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="carrito-icono">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+            </svg>
+        </a>
+          
+        <a href="contacto.html" class="button">CONTACTO</a>
+    </header>
+
+    <main class="cart">
+        <h2>PREVISUALIZACIÓN</h2>
+    
+        <!-- Lista de productos en el carrito -->
+        <ul class="cart-items">
+          <!-- Ejemplo de un producto dentro del carrito -->
+          <!-- Estos se añadirán dinámicamente desde el JavaScript -->
+          <!--
+          <li class="cart-item">
+            <div class="item-details">
+              <span class="item-name">Producto 1</span>
+              <span class="item-quantity">x1</span>
+            </div>
+            <div class="item-actions">
+              <span class="item-price">$10</span>
+              <button class="remove-item">&times;</button>
+            </div>
+          </li>
+          -->
+        </ul>
+    
+        <!-- Totales -->
+        <div class="cart-items">
+          <p>Cantidad: <span id="total-quantity">0</span></p>
+          <p>Subtotal: $<span id="subtotal">0.00</span></p>
+          <p>Total: $<span id="total-price">0.00</span></p>
+        </div>
+    
+        <!-- Botones de acción -->
+        <div class="cart-actions">
+          <button id="clear-cart" class="clear-cart">Vaciar Carrito</button>
+          <button id="checkout" class="checkout">Ir a Pagar</button>
+        </div>
+    </main>
+
+    <script src="carrito.js"></script>
+    </body>
+    </html>
+    

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="fotos/logo.png" alt="Logo de la marca"></a>
+        </div>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="ETBs.html"><img class="box" src="fotos/box.png" alt="Etb">ETB's</a></li>
+                <li><a href="BoosterBoxes.html"><img class="booster" src="fotos/booster.png" alt="Booster box"> BOOSTER BOX</a></li>
+                <li><a href="accesorios.html"><img class="acc-png" src="fotos/accesorios.png" alt="accesorios">ACCESORIOS</a></li>
+            </ul>
+        </nav>
+
+        <a href="carrito.html"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="carrito-icono">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+            </svg>
+        </a>
+          
+        <a href="contacto.html" class="button">CONTACTO</a>
+    </header>
+
+    <main class="container">
+        <article class="box-info">
+            <h1>CONTÁCTATE CON NOSOTROS</h1>
+            <div class="data">
+                <p><i class="fa-solid fa-phone"></i> +34 294 928 296</p>
+                <p><i class="fa-solid fa-envelope"></i> poketcg@gmail.com</p>
+                <p><i class="fa-solid fa-location-dot"></i> 30 Grant Ave Los Angeles CA 94108-5834. USA</p>
+            </div>
+            <div class="links">
+                <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://x.com/"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+        </article>
+        <form>
+            <div class="input-box">
+                <input type="text" placeholder="Nombre y apellido" required>
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input-box">
+                <input type="email" required placeholder="Correo electrónico">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Asunto">
+                <i class="fa-solid fa-pen-to-square"></i>
+            </div>
+            <div class="input-box">
+                <textarea placeholder="Escribe tu mensaje..."></textarea>
+            </div>
+            
+            <!--checkbox de condiciones-->
+            <div>
+                <input type="checkbox" id="condiciones" name="condiciones" required>
+                <label for="condiciones">
+                    He leído y acepto las <a href="aviso-legal.html" target="_blank">condiciones de uso</a>.
+                </label>
+            </div>
+
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <footer class="footer">
+        <ul class="social-icon">
+            <li class="icon-element">
+                <a href="" class="icon">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+            </li>
+
+            <li class="icon-element">
+                <a href="https://www.instagram.com/" class="icon">
+                    <ion-icon name="logo-instagram"></ion-icon></a>
+            </li>
+
+            <li class="icon-element">
+                <a href="https://x.com/" class="icon">
+                    <ion-icon name="logo-twitter"></ion-icon></a>
+            </li>
+
+            <li class="icon-element">
+                <a href="https://www.facebook.com/" class="icon">
+                    <ion-icon name="logo-facebook"></ion-icon></a>
+            </li>
+        </ul>
+
+        <ul class="menu">
+            <li class="menu-element">
+                <a href="" class="menu-icon">Inicio</a>
+            </li>
+
+            <li class="menu-element">
+                <a href="" class="menu-icon">Equipo</a>
+            </li>
+
+            <li class="menu-element">
+                <a href="" class="menu-icon">Contacto</a>
+            </li>
+
+            <li class="menu-element">
+                <a href="" class="menu-icon">Sobre Nosotros</a>
+            </li>
+        </ul>
+        <p class="text">@2024 | Proyecto Lenguaje de marcas DAW</p>
+    </footer>
+    </body>
+</html>

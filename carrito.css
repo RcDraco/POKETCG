@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+article a {
+    text-decoration: none;
+    color: white;
+}
+
+article a:hover {
+    color: #FFF600;
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #1c1c1c
+}
+
+main a {
+    text-decoration: none;
+    color: white;
+}
+
+main a:hover {
+    color: #FFF600;
+}
+
+body h1{
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*maquetacion y diseño del header*/
+.header {
+    background-color: #444444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 85px;
+    width: 100%;
+    padding: 5px 10%;
+}
+
+.header .logo {
+    cursor: pointer;
+}
+
+.header .logo img {
+    width: auto;
+    height: 70px;
+    transition: all 0.3s;
+}
+
+.box {
+    position: relative;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+
+.booster {
+    position: relative;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+
+.acc-png {
+    position: relative;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav li:hover {
+    transform: scale(1.1);
+}
+
+.header .nav a {
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.header .nav li a:hover{
+    color: #FFF600;
+}
+
+.header .button {
+  text-decoration: none;
+  font-weight: 700;
+  color: #020038;
+  padding: 9px 25px;
+  background: #FFF600;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.header .button:hover{
+  background-color: #4040fb;
+  color: #FFF600;
+  transform: scale(1.1);
+}
+
+/* General */
+  
+  .cart {
+    width: 1200px;
+    margin: 50px auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .cart h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .cart-item:last-child {
+    border-bottom: none;
+  }
+  
+  .item-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .item-quantity {
+    color: #555;
+    font-size: 0.9em;
+  }
+  
+  .item-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .item-price {
+    font-weight: bold;
+  }
+  
+  .remove-item {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .remove-item:hover {
+    background-color: #c82333;
+  }
+  
+  .totals {
+    margin: 20px 0;
+  }
+  
+  .totals p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1em;
+    margin: 5px 0;
+  }
+  
+  .cart-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .clear-cart, .checkout {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .clear-cart {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .clear-cart:hover {
+    background-color: #c82333;
+  }
+  
+  .checkout {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .checkout:hover {
+    background-color: #218838;
+  }
